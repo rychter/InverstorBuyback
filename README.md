@@ -11,7 +11,7 @@ There is a function allowing to check the trackrecord of buybacks.
 
 `submitOfferForBuyback(uint256 priceInWeiTotalPerThousend) public `
 
-2) The 10 lowest offers are selected and bought by investee by calling: 
+2) Ten lowest offers are selected and bought by investee by calling: 
 
 `function executePayback() public `
 
