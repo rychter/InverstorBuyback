@@ -1,6 +1,8 @@
 # Inverstor Buyback 
 &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
  WORK IN PROGRESS
+ &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 Etherum contract that forces buyback of tokens from investors by investee, what reduces the supply, incrising the value of remining ones. 
 This solves many legal problems and increases significantly investors' motivation to buy. 
@@ -12,11 +14,11 @@ There is a function allowing to check the trackrecord of buybacks.
 1) Investors send sell token offers to function: 
 
 `submitOfferForBuyback(uint256 priceInWeiTotalPerThousend) public `
-
+&nbsp;&nbsp;&nbsp;
 2) Ten lowest offers are selected and bought by investee by calling: 
 
 `function executePayback() public `
-
+&nbsp;&nbsp;&nbsp;
 3) Check trackrecord before investing: 
 
  `uint256 public executedPaybacks = 0;
