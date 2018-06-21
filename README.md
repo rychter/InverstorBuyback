@@ -1,7 +1,9 @@
 # Inverstor Buyback // WORK IN PROGRESS
 
-Etherum contract that forces buyback of tokens from investors by investee, what reduces the supply, incrising the value of remining ones. This solves many legal problems and increases significantly investors' motivation to buy. 
-Bought back tokens are burned. There is a function allowing to check the trackrecord of buybacks. 
+Etherum contract that forces buyback of tokens from investors by investee, what reduces the supply, incrising the value of remining ones. 
+This solves many legal problems and increases significantly investors' motivation to buy. 
+Bought back tokens are burned. 
+There is a function allowing to check the trackrecord of buybacks. 
 
 
 
@@ -13,6 +15,10 @@ Bought back tokens are burned. There is a function allowing to check the trackre
 
 `function executePayback() public `
 
+3) Check trackrecord before investing: 
+
+ `uint256 public executedPaybacks = 0;
+  mapping(uint256 => bool) public executePaybackSuccessById;`
 
 
 This reduces the number of tokens, increasing the calue of the remaining ones. 
