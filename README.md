@@ -30,8 +30,8 @@ There is a function allowing to check the trackrecord of buybacks. <br/>
   
 <br/>
 <br/><br/>
-This reduces the number of tokens, increasing the calue of the remaining ones. 
-This may aslo reduce the amount of legal restrictions in comparison to other solutions. 
+This reduces the number of tokens, increasing the calue of the remaining ones. <br/>
+This may aslo reduce the amount of legal restrictions in comparison to other solutions. <br/>
 <br/><br/>
 <br/>
 Copy contract to http://remix.ethereum.org and test it! 
