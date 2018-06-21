@@ -105,7 +105,7 @@ contract InvestorBuyback {
 
     function executePayback() public {
 
-        //    require((block.timestamp - lastExecutedPayback) >= 2629743); UNCOMENT ME <---------------------
+        //    require((block.timestamp - lastExecutedPayback) >= 2629743); UNCOMMENT ME <---------------------
         require(executedPaybacks <= 100);
 
         uint256 totalToPay = 0;
