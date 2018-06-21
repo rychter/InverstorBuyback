@@ -1,4 +1,4 @@
-# Inverstor Buyback
+# Inverstor Buyback // WORK IN PROGRESS
 
 Etherum contract that forces buyback of tokens from investors
 
