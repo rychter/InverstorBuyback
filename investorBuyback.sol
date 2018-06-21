@@ -15,8 +15,6 @@ contract InvestorBuyback {
     uint256 public lastExecutedPayback;
     uint256 public executedPaybacks = 0;
 
-    uint256 public test = 0;
-
 
     mapping(uint256 => bool) public executePaybackSuccessById;
     mapping(address => uint256) public balanceOf;
@@ -139,7 +137,7 @@ contract InvestorBuyback {
 
     function addBalance() public payable {}
 
-    function wasLastBuybackExecutedOnTime() public {
+    function wasLastBuybackExecutedOnTime() private {
         if ((block.timestamp - lastExecutedPayback) >= 5259486) {
             executePaybackSuccessById[executedPaybacks] = true;
         } else {
